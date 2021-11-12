@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJETO LISTA</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600&display=swap" rel="stylesheet">
+
+    <script src="js/script1.js"></script>
+    
+</head>
+<body>  
+
+    <header>
+        <h1>LISTA SAÍDA TEMPORÁRIA</h1>
+    </header>
+
+    <main>
+
+        <div class="title">
+            <h2 class= 'center'>Cadastro</h2>
+            <span class= 'center'>Cadastro de informações Saida Temporária</span>
+        </div>        
+
+        <div class="card">
+            <div class="LineInput">
+                <label>Controle</label>
+                <input type="text" id="Controle" placeholder="Nº de Controle"> 
+        </div>
+
+        <div class="card">
+            <div class="LineInput">
+                <label>Matrícula</label>
+                <input type="text" id="Matricula" placeholder="Matrícula"> 
+            </div>
+
+        <div class="card">
+            <div class="LineInput">
+                <label>Nome</label>
+                <input type="text" id="Nome" placeholder="Nome"> 
+        </div>
+
+        <div class="card">
+            <div class="LineInput">
+                <label>Execução ou Processo DEECRIM</label>
+                <input type="text" id="Execução" placeholder="Execução ou Processo DEECRIM"> 
+        </div>
+
+        <div class="card">
+            <div class="LineInput">
+            <label>Fração da Pena Cumprida</label>
+            <input type="text" id="fração" placeholder="Fração da Pena Cumprida">     
+        </div>
+
+        <div class="card">
+            <div class="LineInput">
+            <label>Endereço de Permanência</label>
+            <input type="endereço" id="Controle" placeholder="Endereço informado"> 
+       </div>
+
+        <div class="card">
+            <div class="LineInput">
+            <label>Pessoa a ser Visitada</label>
+            <input type="text" id="pessoa" placeholder="nome parente ou amigo"> 
+        </div>
+
+        <div class="card">
+            <div class="LineInput">
+            <label>Vinculo</label>
+            <input type="text" id="Vinculo" placeholder="Vinculo com pessoa a ser visitada"> 
+        </div>
+
+        <div class="card">
+            <div class="LineInput">
+            <label>Meio de Locomoção</label>
+            <input type="text" id="Locomoção" placeholder="sairá de que"> 
+        </div>
+
+        <div class="card">
+            <div class="LineInput">
+            <label>Raio/ALA</label>
+            <input type="text" id="Raio" placeholder="raio ou ala"> 
+        </div>
+           
+        <button onclick="lista.salvar()">SALVAR</button>
+        <button onclick="lista.cancelar()">CANCELAR</button>
+                          
+    </main>
+
+    
+
+    <button><a href="index.html">Voltar para a Páginia Inicial</a>
+    </button>
+
+</body>
+</html>
